@@ -18,8 +18,8 @@ const html = `
     <script>
       setTimeout(() => {
         confetti({
-          particleCount: 100,
-          spread: 70,
+          particleCount: 300,
+          spread: 360,
           origin: { y: 0.6 },
           disableForReducedMotion: true
         });
@@ -55,6 +55,7 @@ const html = `
   <body>
     <section>
       Hello from Render!
+          <h4> This is a new version </h4>
     </section>
   </body>
 </html>
